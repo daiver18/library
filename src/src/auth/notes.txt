@@ -1,0 +1,8 @@
+en app.js wrapp the main app with 
+import { AuthProvider, ProtectRoute } from "../components/hook/authProvider";
+
+<AuthProvider>
+      <ProtectRoute>
+         <Component {...pageProps} />
+      </ProtectRoute>
+</AuthProvider>
